@@ -11,5 +11,12 @@ commands:
     // to deactivate venv
     deactivate
 
-if you add any more packages, include them in requirements.exe
+if you add any more packages, include them in requirements.txt
 
+for redis, run these commands:
+    docker build -t finance-redis ./docker/redis
+    docker run -d -p 6379:6379 --name redis-cache finance-redis
+
+in your .env, you should have:
+    REDIS_HOST = "localhost"
+    REDIS_PORT = 6379
