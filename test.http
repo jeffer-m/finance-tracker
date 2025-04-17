@@ -1,0 +1,16 @@
+POST http://localhost:8000/users/create
+Content-Type: application/json
+
+{
+    "name": "John",
+    "surname": "Doe",
+    "email": "jon@doe.com",
+    "username": "johndoe",
+    "password": "12345678"
+}
+
+###
+
+@user_id = 0196438c-79b7-7f9a-a8d9-eee39c899464
+GET  http://localhost:8000/users/{{user_id}}
+

@@ -4,3 +4,6 @@ psycopg2-binary
 sqlalchemy
 bcrypt
 pyjwt
+uuid6
+sqlmodel
+python-dotenv
