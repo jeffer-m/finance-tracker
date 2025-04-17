@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 psycopg2-binary
-sqlalchemy
+# sqlalchemy
 bcrypt
 pyjwt
 uuid6
