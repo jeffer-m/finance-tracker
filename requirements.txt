@@ -6,3 +6,4 @@ pyjwt
 uuid6
 sqlmodel
 python-dotenv
+redis
