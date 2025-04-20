@@ -7,3 +7,4 @@ uuid6
 sqlmodel
 python-dotenv
 redis
+scalar-fastapi
